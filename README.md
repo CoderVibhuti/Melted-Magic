@@ -24,6 +24,7 @@ CSS
 JavaScript
 
 📂Project Structure
+
 Melted Magic/
 │
 ├── index.html
