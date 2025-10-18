@@ -1,8 +1,10 @@
-# Melted-Magic
+# 🍦 Melted Magic — Ice Cream Website
  A modern, responsive ice cream website built with HTML, CSS &amp; JS — sweetly designed as Melted Magic. 🍨
- 🍦 Melted Magic — Ice Cream Website
+ 
+Melted Magic is a delightful, responsive ice cream website built to showcase a modern online dessert store experience. It features multiple pages including product listings, shopping 
+cart, user login/signup, and contact information — all wrapped in a visually pleasing theme.
 
-Melted Magic is a delightful, responsive ice cream website built to showcase a modern online dessert store experience. It features multiple pages including product listings, shopping cart, user login/signup, and contact information — all wrapped in a visually pleasing theme.
+---
 
 ✨ Features
 
@@ -18,13 +20,17 @@ Melted Magic is a delightful, responsive ice cream website built to showcase a m
 
 💅 Responsive Design: Works smoothly across desktop and mobile.
 
+---
+
 🛠️ Tech Stack
 HTML
 CSS
 JavaScript
 
-📂Project Structure
+---
 
+📂Project Structure
+```
 Melted Magic/
 │
 ├── index.html
@@ -37,6 +43,9 @@ Melted Magic/
 ├── css/
 ├── js/
 └── images/
+```
+
+---
 
 🌈 Future Enhancements
 
