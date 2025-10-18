@@ -1,0 +1,26 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cart • IceCreamInnovative</title>
+<link rel="stylesheet" href="css/style.css">
+</head><body>
+<header class="navbar">
+  <div class="brand">🛒 Your Cart</div>
+  <nav>
+    <a href="product.html">Products</a>
+    <a href="index.html">Home</a>
+    <a href="cart.html">Cart <span id="cartCount" class="badge">0</span></a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="login.html">Login</a>
+    <a href="signup.html">Signup</a>
+    <button id="themeToggle" class="btn btn-outline toggle">🌙</button>
+  </nav>
+</header>
+<div class="container">
+  <div id="cartItems"></div>
+  <div class="total">Total: ₹ <span id="cartTotal">0</span></div>
+  <button id="checkoutBtn" class="btn">Place Order</button>
+</div>
+<canvas class="confetti-canvas" style="display:none"></canvas>
+<script src="js/script.js"></script>
+</body></html>

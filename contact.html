@@ -1,0 +1,42 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact • IceCreamInnovative</title>
+<link rel="stylesheet" href="css/style.css">
+</head><body>
+<header class="navbar">
+  <div class="brand">☎️ Contact Us</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="product.html">Products</a>
+    <a href="cart.html">Cart <span id="cartCount" class="badge">0</span></a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="login.html">Login</a>
+    <a href="signup.html">Signup</a>
+  </nav>
+</header>
+<div class="container">
+  <form id="feedbackForm" class="card" style="padding:20px; max-width:640px; margin:auto">
+    <h2>Send Feedback</h2>
+    <div style="display:grid; gap:10px; grid-template-columns: 1fr 1fr;">
+      <input type="text" id="name" placeholder="Name" required style="padding:12px; border-radius:12px; border:1px solid rgba(0,0,0,.1);">
+      <input type="email" id="contactEmail" placeholder="Email" required style="padding:12px; border-radius:12px; border:1px solid rgba(0,0,0,.1);">
+    </div>
+    <textarea id="feedback" placeholder="Your feedback" rows="5" style="margin-top:10px; padding:12px; border-radius:12px; border:1px solid rgba(0,0,0,.1); width:100%;"></textarea>
+    <label style="margin-top:10px;">Rate Us:</label>
+    <select id="rating" style="padding:10px; border-radius:10px;">
+      <option value="1">⭐</option>
+      <option value="2">⭐⭐</option>
+      <option value="3" selected>⭐⭐⭐</option>
+      <option value="4">⭐⭐⭐⭐</option>
+      <option value="5">⭐⭐⭐⭐⭐</option>
+    </select>
+    <div style="display:flex; gap:10px; margin-top:14px;">
+      <button class="btn" type="submit">Submit</button>
+      <a class="btn btn-outline" href="product.html">Browse Flavors</a>
+    </div>
+    <p class="small" style="margin-top:12px;">(Demo only) Ratings & feedback are saved to your browser's LocalStorage.</p>
+  </form>
+</div>
+<script src="js/script.js"></script>
+</body></html>
