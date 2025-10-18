@@ -57,6 +57,8 @@ User authentication and profile management
 
 Online payment system
 
+---
+
 💖 Credits
 
 Created with love for web development practice and design creativity 🍧
