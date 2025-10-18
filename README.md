@@ -23,9 +23,11 @@ cart, user login/signup, and contact information — all wrapped in a visually p
 ---
 
 🛠️ Tech Stack
+```
 HTML
 CSS
 JavaScript
+```
 
 ---
 
