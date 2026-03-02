@@ -59,6 +59,12 @@ Online payment system
 
 ---
 
-💖 Credits
+Credits
 
 Created with love for web development practice and design creativity 🍧
+
+## Recent Update
+
+- Improving project structure
+- Preparing mobile responsiveness
+- Daily active development started
