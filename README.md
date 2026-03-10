@@ -68,3 +68,5 @@ Created with love for web development practice and design creativity 🍧
 - Improving project structure
 - Preparing mobile responsiveness
 - Daily active development started
+
+# testing
